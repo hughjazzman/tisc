@@ -1,4 +1,4 @@
-# Stage 1
+# Stage 1 Write-Up
 
 Immediately we go ahead and try to unzip the given file. It's password protected!
 
@@ -59,7 +59,7 @@ It was finished, and there it was when using `cat`!
 $ cat temp.mess
 {"anoroc": "v1.320", "secret": "TISC20{q1_85d3ba2b674fc9e22023130e245adafb}", "desc": "Submit this.secret to the TISC grader to complete challenge", "constants": [1116352408, 1899447441, 3049323471, 3921009573, 961987163, 1508970993, 2453635748, 2870763221], "sign": "
 ```
-~[flag](flag.png)
+![flag](flag.png)
 Flag is easily seen:
 ```
 TISC20{q1_85d3ba2b674fc9e22023130e245adafb}
